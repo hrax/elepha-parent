@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>info.elepha</groupId>
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
@@ -66,8 +65,8 @@
 				<configuration>
 					<doCheck>false</doCheck>
 					<doUpdate>false</doUpdate>
-					<useLastCommittedRevision>true</useLastCommittedRevision>
 					<revisionOnScmFailure>0</revisionOnScmFailure>
+					<shortRevisionLength>8</shortRevisionLength>
 				</configuration>
 				<executions>
 					<execution>
@@ -287,4 +286,8 @@
 	</dependencyManagement>
 	<name>elepha.info parent</name>
 	<description>Dependency and configuration parent project</description>
+	<scm>
+		<url>scm:git:git://github.com/hrax/elepha-parent.git</url>
+		<developerConnection>scm:git:ssh://git@github.com:hrax/elepha-parent.git</developerConnection>
+	</scm>
 </project>
