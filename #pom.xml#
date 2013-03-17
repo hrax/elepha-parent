@@ -66,7 +66,7 @@
 					<doCheck>false</doCheck>
 					<doUpdate>false</doUpdate>
 					<revisionOnScmFailure>0</revisionOnScmFailure>
-					<shortRevisionLength>10</shortRevisionLength>
+					<shortRevisionLength>10	</shortRevisionLength>
 				</configuration>
 				<executions>
 					<execution>
