@@ -288,6 +288,6 @@
 	<description>Dependency and configuration parent project</description>
 	<scm>
 		<url>scm:git:git://github.com/hrax/elepha-parent.git</url>
-		<developerConnection>scm:git:ssh://git@github.com:hrax/elepha-parent.git</developerConnection>
+		<developerConnection>scm:git:git://git@github.com:hrax/elepha-parent.git</developerConnection>
 	</scm>
 </project>
